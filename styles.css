@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 10px 10px;
+    position: sticky;
+    top: 0px;
+}
+.link{
+    margin-left: 35px;
+    color: grey;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./pictures/parallax1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.head{
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    align-items: center;
+    font-size: 30px;
+    border: 1px solid  black;
+    display: inline-block;
+    padding: 20px 80px;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    opacity: 80%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    width: 800px;
+}
+.heading2{
+    padding: 20px;
+    color: gray;
+}
+.para1{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(108, 108, 108);
+}
+.para2{
+    text-align: center;
+    color: gray;
+    line-height: 1.5;
+    font-weight: 100;
+    font-size: 17px;
+}
+.part2{
+    display: flex;
+    margin-top: 50px;
+    width: 800px;
+}
+.ladki{
+    height: 300px;
+    width: 420px;
+    padding: 20px;
+}
+.para3{
+    text-align: left;
+    padding: 10px 20px;
+}
+.name{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.paragraph{
+color: gray;
+line-height: 1.5;
+font-size: 17px;
+}
+.good{
+    padding: 20px;
+    color: gray;
+
+}
+.bars{
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.bar_original{
+    width: 1100px;
+    height: 30px;
+    text-align: center;
+    color:white ;
+    margin-top: 20px;
+    background-color: gray;
+}
+.bar_second{
+    width: 990px;
+    background-color: rgb(56, 55, 55);
+    height: 30px;
+}
+
+
